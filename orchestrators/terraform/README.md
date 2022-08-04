@@ -1,4 +1,4 @@
-# Deploy CiphterTrust Manager using Terraform
+# Deploy CipherTrust Manager using Terraform
 
 ## Deploy on
 - [Azure](./azure/)
