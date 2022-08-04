@@ -1,4 +1,4 @@
-# Deploy CiphterTrust Manager on Azure using Terraform
+# Deploy CipherTrust Manager on Azure using Terraform
 
 [Terraform](https://terraform.io/) is an orchestrator created by HashiCorp. They have an Open Source version that you can download and manage yourself. They also have it "as a Service" where the orchestrator is managed by HashiCorp, themselves. For this script, we are using the Open Source version. There may be differences with the "as a Service" version. If you run into differences, feel free to update this repo.
 
@@ -10,7 +10,7 @@
 ## 1. Clone this Repository
 ```bash
 git clone https://github.com/thalescpl-io/CipherTrust_Manager.git
-cd Ciphtertrust_Manager/terraform/azure
+cd CipherTrust_Manager/orchestrators/terraform/azure/
 ```
 
 ## 2. Login to Azure CLI

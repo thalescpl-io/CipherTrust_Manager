@@ -127,7 +127,7 @@ resource "tls_private_key" "ctm_ssh_key" {
 
 # Create virtual machine for CipherTrust Manager (CTM).
 resource "azurerm_linux_virtual_machine" "ctm_vm" {
-  name                  = "CiphterTrustManager_VM"
+  name                  = "CipherTrustManager_VM"
   location              = azurerm_resource_group.rg.location
   resource_group_name   = azurerm_resource_group.rg.name
   network_interface_ids = [azurerm_network_interface.ctmnic.id]
