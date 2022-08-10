@@ -57,6 +57,13 @@ resource "google_compute_firewall" "ctm-ssh-firewall" {
   source_tags = ["ssh"]
 }
 
+# Create (and display) an SSH key. Required to setup CipherTrust Manager Instance.
+resource "tls_private_key" "ctm_ssh_key" {
+  algorithm = "RSA"
+  rsa_bits = 4096
+}
+
+
 # Create a public static IP address for CipherTrust Manager Instance
 resource "google_compute_address" "public_static_ip" {
   name    = "ipv4-address"
