@@ -4,7 +4,7 @@
 
 ## Pre-requisite Installations
 * [Git](https://gitscm.org)
-* [Terraform](https://terraform.io/downloads)
+* [Terraform CLI](https://terraform.io/downloads)
 * [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ## 1. Clone this Repository

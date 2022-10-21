@@ -4,7 +4,7 @@
 
 ## Pre-requisite Installations
 * [Git](https://gitscm.org)
-* [Terraform](https://terraform.io/downloads)
+* [Terraform CLI](https://terraform.io/downloads)
 * [GCloud CLI](https://cloud.google.com/sdk/docs/install-sdk#installing_the_latest_version)
 
 ## 1. Clone this Repository
