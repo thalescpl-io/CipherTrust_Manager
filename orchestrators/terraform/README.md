@@ -2,4 +2,5 @@
 
 ## Deploy on
 - [Azure](./azure/)
-- [Google Cloud Platform](./gcp/)
+- [Google Cloud Platform (GCP)](./gcp/)
+- [Amazon Web Services (AWS)](./aws/)

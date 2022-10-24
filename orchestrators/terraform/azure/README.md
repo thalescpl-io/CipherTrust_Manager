@@ -4,8 +4,8 @@
 
 ## Pre-requisite Installations
 * [Git](https://gitscm.org)
-* [Terraform](https://terraform.io/downloads)
-* [Azure](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+* [Terraform CLI](https://terraform.io/downloads)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## 1. Clone this Repository
 ```bash
