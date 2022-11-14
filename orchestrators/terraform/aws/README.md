@@ -13,9 +13,9 @@ git clone https://github.com/thalescpl-io/CipherTrust_Manager.git
 cd CipherTrust_Manager/orchestrators/terraform/aws/
 ```
 
-## 2. Login to GCloud CLI
+## 2. Login to AWS CLI
 ```bash
-gcloud init
+aws configure
 ```
 
 ## 3. Initialize Terraform Modules
